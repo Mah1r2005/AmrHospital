@@ -1,0 +1,49 @@
+#Navbar{
+  padding: 11px; 
+}
+
+#Homepage{
+  padding: 70px;
+}
+
+body{
+   font-family:cursive;
+   color:black;
+}
+
+#footer{
+    padding:50px;
+}
+
+.image-container {
+  position: relative;
+  width:300 px;
+  height:300 px;
+}
+.image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+}
+.image-container:hover .after {
+  display: block;
+  background: rgba(0, 0, 0, 0.972);
+}
+
+.bton {
+  border: 2px solid black;
+  background-color: rgba(12, 11, 11, 0.808);
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
